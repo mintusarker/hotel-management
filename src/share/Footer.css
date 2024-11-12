@@ -1,8 +1,58 @@
 .footer-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 15px 25px 15px 25px;
   color: #fff;
   background-color: rgb(5, 12, 18);
+  position: absolute;
+  height: 320px;
+  width: 100%;
+  /* left: 0; */
+  bottom: 0;
+  right: 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about a {
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.about a:hover {
+  text-decoration: underline;
+  text-decoration-color: darkred;
+}
+
+.footer-one {
+  display: flex;
+  gap: 2px;
+}
+
+.footer-one textarea{
+ width: 250px;
+ height: 40px;
+ padding: 4px;
+ border-top-left-radius: 10px;
+ outline: none;
+ /* text-align: center; */
+ align-content: center;
+ padding-left: 20px;
+}
+
+.footer-one button{
+  width: 60px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: rgb(85, 170, 187);
+  border: none;
+  border-bottom-right-radius: 10px;
 }
